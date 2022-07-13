@@ -1,0 +1,44 @@
+body{
+    font-family: 'Cormorant SC', serif;
+    margin: 0;
+    background-color: dimgray;
+}
+.header{
+    height: 500px;
+    padding-top: 20%;
+    padding-left: 15%;
+    background-image: url(../image/eid3.jpg);
+    background-size: cover;
+}
+.header-text{
+    color: azure;
+    padding-right: 50%;
+    font-size: 20px;
+}
+span{
+    color: rgb(129, 252, 6);
+}
+#ancor{
+    color: rgb(242, 246, 247);
+    box-shadow: 5px 5px 5px calc();
+    padding: 10px 10px;
+    background-color: rgb(214, 73, 45);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.lives{
+    color: azure;
+    width: 50%;
+    text-align: left;
+    padding: 10% 10%;
+    font-weight: 700;
+
+}
+.flex{
+   display: flex;
+}
+.video{
+    width: 80%;
+    padding-top: 8%;
+}
