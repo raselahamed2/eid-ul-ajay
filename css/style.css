@@ -7,7 +7,7 @@ body{
     height: 500px;
     padding-top: 20%;
     padding-left: 15%;
-    background-image: url(../image/eid3.jpg);
+    background-image: linear-gradient(to left,rgba(245, 246, 252, 0.1), rgba(20, 18, 18, 0.8)), url(../image/hero-banner.jpeg);
     background-size: cover;
 }
 .header-text{
@@ -41,4 +41,66 @@ span{
 .video{
     width: 80%;
     padding-top: 8%;
+}
+.selector img{
+    width: 50%;
+}
+.selector{
+    width: 100%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+.selector img{
+    width: 500px;
+    height: 500px;
+}
+.unique{
+    display: flex;
+}
+.they{
+    width: 50%;
+    padding-right: 25%;
+    color: aliceblue;
+    text-align: justify;
+}
+.depend{
+    text-align: center;
+}
+.navi{
+    display: flex;
+}
+.nav{
+    width: 60%;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid rgb(225, 230, 225);
+    background-color: cornsilk;
+    margin-left: 10%;
+    text-align: justify;
+    padding-right: 5%;
+    margin-right: 5%;
+}
+.icon{
+}
+.navigntion{
+    width: 60%;
+    padding-right: 10%;
+    box-shadow: 10px 10px 10px gray;
+}
+.navi img{
+    padding-top: 2%;
+}
+.help{
+    width: 60%;
+    padding-left: 5%;
+    box-shadow: 5px 5px 5px gray;
+    border: 1px solid rgb(225, 230, 225);
+    background-color: cornsilk;
+    margin-left: 10%;
+    text-align: justify;
+    padding-right: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
 }
